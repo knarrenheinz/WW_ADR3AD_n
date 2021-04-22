@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Ad Read_data" version="1.3.0" audacityversion="2.2.2" sel0="0.0000000000" sel1="114.1795240000" vpos="32" h="0.0000000000" zoom="9.7302910459" rate="32000.0" snapto="off" selectionformat="hh:mm:ss" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Ad Read_data" version="1.3.0" audacityversion="2.2.2" sel0="4.6942391678" sel1="4.6942391678" vpos="208" h="0.0000000000" zoom="21.9417878635" rate="32000.0" snapto="off" selectionformat="hh:mm:ss" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
-	<wavetrack name="Ad Read v2.output" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="Ad Read v2.output" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="495935">
 				<waveblock start="0">
@@ -75,7 +75,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="8" height="150" minimized="0" isSelected="0">
+	<labeltrack name="Label Track" numlabels="8" height="150" minimized="1" isSelected="0">
 		<label t="0.0000000000" t1="15.4979687500" title="name call"/>
 		<label t="15.4979687500" t1="25.4695625000" title="take 1"/>
 		<label t="25.4695625000" t1="29.2932500000" title="tap the banner take 1"/>
@@ -85,7 +85,7 @@
 		<label t="42.8893437500" t1="47.9108125000" title="neelam b"/>
 		<label t="47.9108125000" t1="57.2507500000" title="take 3"/>
 	</labeltrack>
-	<wavetrack name="Life is a dream" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="Life is a dream" channel="2" linked="0" mute="1" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="5035317">
 				<waveblock start="0">
@@ -180,7 +180,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="8" height="73" minimized="0" isSelected="1">
+	<labeltrack name="Label Track" numlabels="8" height="73" minimized="0" isSelected="0">
 		<label t="0.0000000000" t1="114.1795240000" title="always keep the audio gain for the theme at -3 from the side panel"/>
 		<label t="0.0000000000" t1="16.0848530000" title="intro part of the song"/>
 		<label t="16.0848530000" t1="32.0959860000" title="individual loops"/>
@@ -189,5 +189,89 @@
 		<label t="82.4156690000" t1="92.7176190000" title="2nd ending"/>
 		<label t="92.7176190000" t1="100.1777320000" title="3rd ending"/>
 		<label t="96.1405220000" t1="114.1795240000" title="natural ending of the song"/>
+	</labeltrack>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="23.59012500" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="0"/>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="3.32212500" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="431692">
+				<waveblock start="0">
+					<simpleblockfile filename="e000003e.au" len="223958" min="-0.720958" max="0.792425" rms="0.11806"/>
+				</waveblock>
+				<waveblock start="223958">
+					<simpleblockfile filename="e0000bcd.au" len="207734" min="-0.714172" max="0.786188" rms="0.109304"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="23.58212500" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="111600">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000058.au" len="111600" min="-0.790091" max="0.792339" rms="0.115976"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="16.81250000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="216628">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000eb6.au" len="216628" min="-0.792579" max="0.792608" rms="0.116494"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="32000" gain="0.707946" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="951710">
+				<waveblock start="0">
+					<simpleblockfile filename="e00001f3.au" len="155501" min="-0.798442" max="0.793162" rms="0.145635"/>
+				</waveblock>
+				<waveblock start="155501">
+					<simpleblockfile filename="e00003bc.au" len="142820" min="-0.817917" max="0.823073" rms="0.261"/>
+				</waveblock>
+				<waveblock start="298321">
+					<simpleblockfile filename="e0000bbd.au" len="199941" min="-0.821687" max="0.81151" rms="0.255754"/>
+				</waveblock>
+				<waveblock start="498262">
+					<simpleblockfile filename="e000051f.au" len="199941" min="-0.810908" max="0.808877" rms="0.270116"/>
+				</waveblock>
+				<waveblock start="698203">
+					<simpleblockfile filename="e000083a.au" len="191344" min="-0.811127" max="0.814761" rms="0.265274"/>
+				</waveblock>
+				<waveblock start="889547">
+					<simpleblockfile filename="e00005e8.au" len="62163" min="-0.49304" max="0.491638" rms="0.101377"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="19">
+				<controlpoint t="1.449381676340" val="1.000000000000"/>
+				<controlpoint t="3.607506406090" val="0.309859156609"/>
+				<controlpoint t="27.798336765182" val="0.309859156609"/>
+				<controlpoint t="27.798336765182" val="1.000000000000"/>
+				<controlpoint t="55.829336200807" val="1.000000000000"/>
+				<controlpoint t="55.829336200807" val="0.336701302198"/>
+				<controlpoint t="83.896304950807" val="0.336701302198"/>
+				<controlpoint t="83.896304950807" val="0.525642880289"/>
+				<controlpoint t="84.161073049435" val="1.000000000000"/>
+				<controlpoint t="111.780023700807" val="0.309859156609"/>
+				<controlpoint t="111.780023700807" val="1.000000000000"/>
+				<controlpoint t="113.678855680681" val="1.000000000000"/>
+				<controlpoint t="113.678855680681" val="0.309859156609"/>
+				<controlpoint t="129.763719629904" val="0.309859156609"/>
+				<controlpoint t="129.763719629904" val="0.933026876490"/>
+				<controlpoint t="155.748563379904" val="0.309859156609"/>
+				<controlpoint t="155.748563379904" val="1.000000000000"/>
+				<controlpoint t="157.647395359778" val="1.000000000000"/>
+				<controlpoint t="157.647395359778" val="0.309859156609"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="4" height="73" minimized="0" isSelected="0">
+		<label t="3.3221250000" t1="16.8125000000" title="name call"/>
+		<label t="16.8125000000" t1="23.5901250000" title="take 3 "/>
+		<label t="23.5821106007" t1="27.1103803453" title="tap the banner take 1"/>
+		<label t="27.0397914836" t1="29.7409375000" title="eding taken from the natural ending but trimmed and faded. set audio gain to -3"/>
 	</labeltrack>
 </project>
